@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "<%= params.author %>",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
